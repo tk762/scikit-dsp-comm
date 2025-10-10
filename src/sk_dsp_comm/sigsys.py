@@ -3201,8 +3201,6 @@ def zplane(b,a,auto_scale=True,size=2,detect_mult=True,tol=0.001):
     plt.xlabel('Real Part')
     plt.ylabel('Imaginary Part')
     plt.title('Pole-Zero Plot')
-    #plt.grid()
-    plt.axis([-size,size,-size,size])
     return M,N
 
 
