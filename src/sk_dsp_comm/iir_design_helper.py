@@ -535,6 +535,4 @@ def sos_zplane(sos,auto_scale=True,size=2,tol = 0.001):
     plt.xlabel('Real Part')
     plt.ylabel('Imaginary Part')
     plt.title('Pole-Zero Plot')
-    #plt.grid()
-    plt.axis([-size,size,-size,size])
     return M,N
